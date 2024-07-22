@@ -1,0 +1,95 @@
+#header{
+    border-style: solid;
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border-width: 5px;
+    margin: 10px;
+}
+@font-face {
+    font-family: 'Samarkan';
+    src: url('samarkan-font/SamarkanNormal-Gg5D.ttf');
+}
+#header h1{
+    font-size: 100px;
+    font-family: 'Samarkan';
+}
+#header:hover{
+    background-image: url("SS1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    transition-duration: 0.3s;
+}
+#container{
+    border-style: solid;
+    border-radius: 30px;
+    height: 800px;
+    padding: 10px;
+    border-width: 5px;
+    background-color: orangered;
+}
+#con1{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#con1:hover{
+    background-image: url("SS12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.01cm;;
+    font-weight: bolder;
+    color: white;;
+    transition-duration: 0.3s;
+}
+#con2{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 325px;
+    text-align: center;
+}
+#con21{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#con2:hover{
+    background-image: url("SS11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.01cm;;
+    font-weight: bolder;
+    color: white;;
+    transition-duration: 0.3s;
+}
+.texts{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 30px;
+    background-color: orangered;
+    font-family: "samarkan";
+    font-size: 40px;
+}
+.texts:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.3s;
+}

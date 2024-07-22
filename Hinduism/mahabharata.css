@@ -1,0 +1,71 @@
+#header{
+    border-style: solid;
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border-width: 5px;
+    margin: 10px;
+}
+@font-face {
+    font-family: 'Samarkan';
+    src: url('samarkan-font/SamarkanNormal-Gg5D.ttf');
+}
+#header h1{
+    font-size: 100px;
+    font-family: 'samarkan'
+}
+#header:hover{
+    background-image: url("SS5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.3s;
+    color: white;
+}
+#container{
+    border-style: solid;
+    border-radius: 30px;
+    height: 1100px;
+    padding: 10px;
+    border-width: 5px;
+    background-color: orangered;
+}
+#intro{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#intro:hover{
+    background-image: url("SS6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.01cm;;
+    font-weight: bolder;
+    color: white;
+    transition-duration: 0.3s;
+}
+#content{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#content:hover{
+    background-image: url("SS7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.001cm;;
+    font-weight: bolder;
+    color: white;
+    transition-duration: 0.3s;
+}
